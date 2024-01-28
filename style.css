@@ -1,0 +1,88 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: rgb(36, 35, 35);
+}
+
+#menu
+{
+    padding: 1rem;
+    text-align: right;
+    background-color: rgb(36, 35, 35);
+}
+
+#menu .search
+{
+    padding: 0.3rem 0.5rem;
+    outline: none;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    background-color: rgb(90, 90, 90);
+    color: white;
+}
+
+#menu .btn-search
+{
+    padding: 0.3rem 0.5rem;
+    background-color: rgb(90, 90, 90);
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 0.9rem;
+    border-radius: 0.3rem;
+}
+
+#carousel
+{
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(228,193,92);
+    background: linear-gradient(261deg, rgba(228,193,92,1) 19%, rgba(255,0,247,1) 75%);
+    cursor: default;
+}
+
+#carousel h1
+{
+    font-size: 5rem;
+    font-family: cursive;
+}
+
+.section-title
+{
+    color: white;
+    padding: 1rem;
+}
+
+.products
+{
+    width: 90%;
+    margin: 2rem auto;
+    background-color: rgb(90, 90, 90);
+}
+
+.card-product
+{
+    border: 1px solid rgb(36, 35, 35);
+    display: inline-block;
+    padding: 2rem 1rem;
+    margin: 1rem;
+}
+
+.card-product .card-title
+{
+    color: aliceblue;
+}
+
+.card-product  .card-price
+{
+    color: greenyellow;
+    text-align: right;
+}
